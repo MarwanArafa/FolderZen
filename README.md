@@ -85,6 +85,3 @@ Running `organize_files.py` will transform it into:
 ## 📝 Notes
 - **Linux Notice**: On standard Linux filesystems, exact "Creation Date" is often unavailable, so the script defaults to the "Last Modified" time. On Windows and macOS, the true creation (`st_birthtime`) is accurately leveraged.
 - **Safety**: The script refuses to move itself (`organize_files.py`, `undo_organize.py`) or its own log file (`organize_files.log`) to keep things tidy.
-
-
-https://drive.google.com/drive/mobile/folders/1LxGW3avX287_ezTumm3fQfZ1mA6JPzqd?fbclid=IwdGRjcAUvHUlleHRuA2FlbQIxMQBwZG9mBWZkaWQWUPqsv4g5SFcyVeNrC6Mp6Ynb_R8bRXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR6NUp9sgj3ElyUXdhUjOMbvOk0chislgp3ggCM7G8G6J8F8KlTQnqYM-wDTyg_aem_ONbAyC9VtQz9ss2sEMzTsg
